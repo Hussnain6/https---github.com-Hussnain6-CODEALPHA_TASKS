@@ -10,4 +10,4 @@ def fibbunacci(i):
         return fibbunacci(i-2)+ fibbunacci(i-1)
     
 for i in range(num):
-    print(fibbunacci(i),sep="^",end=" ")
+    print(fibbunacci(i),end=" ")
